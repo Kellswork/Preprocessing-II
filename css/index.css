@@ -209,6 +209,7 @@ img {
   text-decoration: none;
   color: #212529;
   transition: ease-in-out 300ms;
+  font-size: 1.3em;
 }
 .nav-links a:hover {
   color: #17A2B8;
