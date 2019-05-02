@@ -1,1 +1,28 @@
 // Navigation Styles here
+.navbar {
+  border-bottom: 1px dashed @silver;
+  margin-top: 2rem;
+}
+.nav-content {
+  .flex-display(flex-start, baseline);
+  max-width: 800px;
+  margin: 0 auto;
+
+  h1 {
+    width: 40%;
+  }
+}
+
+.nav-links {
+  .flex-display(space-evenly);
+  width: 60%;
+
+  a {
+    text-decoration: none;
+    color: @shark;
+    transition: ease-in-out 300ms;
+    &:hover {
+      color: @eastern-blue;
+    }
+  }
+}
