@@ -168,14 +168,14 @@ img {
   width: 100%;
   margin: 0 auto;
 }
-@media (max-width:600px) {
+@media (max-width:550px) {
   .container {
     width: 90%;
   }
 }
-@media (max-width:800px) {
+@media (max-width:790px) {
   .container {
-    width: 80%;
+    width: 90%;
   }
 }
 .navbar {
@@ -194,12 +194,24 @@ img {
   width: 40%;
   padding-bottom: 1rem;
 }
-@media (max-width:600px) {
+@media (max-width:550px) {
+  .nav-content h1 {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media (max-width:550px) {
   .nav-content {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
+  }
+}
+@media (max-width:790px) {
+  .nav-content {
+    width: 90%;
+    margin: 0 auto;
   }
 }
 .nav-links {
@@ -219,7 +231,7 @@ img {
 .nav-links a:hover {
   color: #17A2B8;
 }
-@media (max-width:600px) {
+@media (max-width:550px) {
   .nav-links {
     width: 100%;
   }
@@ -245,7 +257,7 @@ img {
   width: 48%;
   padding-right: 1%;
 }
-@media (max-width:600px) {
+@media (max-width:550px) {
   .home .content-section .text-content {
     width: 100%;
   }
@@ -257,12 +269,12 @@ img {
 .home .content-section .img-content img {
   border-radius: 10px;
 }
-@media (max-width:600px) {
+@media (max-width:550px) {
   .home .content-section .img-content {
     width: 100%;
   }
 }
-@media (max-width:600px) {
+@media (max-width:550px) {
   .home .content-section {
     display: flex;
     justify-content: flex-start;
@@ -282,7 +294,7 @@ img {
   padding-right: 1%;
   padding-left: 0;
 }
-@media (max-width:600px) {
+@media (max-width:550px) {
   .home .inverse-content {
     display: flex;
     justify-content: flex-start;
@@ -297,7 +309,7 @@ img {
 .home .content-destination img {
   border-radius: 10px;
 }
-@media (max-width:600px) {
+@media (max-width:550px) {
   .home .content-destination {
     width: 100%;
   }
@@ -312,12 +324,12 @@ img {
   width: 30%;
   margin-bottom: 30px;
 }
-@media (max-width:600px) {
+@media (max-width:550px) {
   .home .content-pick .destination {
     width: 100%;
   }
 }
-@media (max-width:600px) {
+@media (max-width:550px) {
   .home .content-pick {
     display: flex;
     justify-content: flex-start;
@@ -349,7 +361,7 @@ img {
   font-size: 1.7em;
   color: #FFFFFF;
 }
-@media (max-width:600px) {
+@media (max-width:550px) {
   .btn {
     margin: 0 auto;
   }
