@@ -6,10 +6,10 @@
   flex-direction: @direction;
 }
 
-.destination-button() {
+.destination-button(@radius, @color) {
 height: 40px;
 width: 80%;
 border: 1px solid @button-bg;
-border-radius: 15px;
-background: @button-bg;
+border-radius: @radius;
+background: @color;
 }
