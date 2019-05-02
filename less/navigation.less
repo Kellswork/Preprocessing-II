@@ -10,13 +10,17 @@
 
   h1 {
     width: 40%;
+    padding-bottom: 1rem;
+  }
+  @media @mobile {
+    .flex-display(space-evenly, center, column);
   }
 }
 
 .nav-links {
   .flex-display(space-evenly);
   width: 60%;
-
+  padding-bottom: 1rem;
   a {
     text-decoration: none;
     color: @shark;
@@ -24,5 +28,8 @@
     &:hover {
       color: @eastern-blue;
     }
+  }
+  @media @mobile {
+    width: 100%;
   }
 }
