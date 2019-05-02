@@ -255,8 +255,24 @@ img {
 }
 .intro {
   padding-top: 2.5rem;
+  padding-bottom: 1.5rem;
   border-bottom: 1px dashed #C0C0C0;
 }
 .intro h2 {
   text-transform: capitalize;
+}
+.btn {
+  height: 40px;
+  width: 80%;
+  border: 1px solid #17A2B8;
+  border-radius: 15px;
+  background: #17A2B8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn a {
+  text-decoration: none;
+  font-size: 1.7em;
+  color: #FFFFFF;
 }
