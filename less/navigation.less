@@ -1,1 +1,45 @@
 // Navigation Styles here
+.navbar {
+  border-bottom: 1px dashed @silver;
+  margin-top: 2rem;
+}
+.nav-content {
+  .flex-display(flex-start, baseline);
+  max-width: 800px;
+  margin: 0 auto;
+
+  h1 {
+    width: 40%;
+    padding-bottom: 1rem;
+
+    @media @mobile {
+        width: 100%;
+        text-align: center;
+      }    
+  }  
+  @media @mobile {
+    .flex-display(space-evenly, center, column);
+  }
+  @media @tablet {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+.nav-links {
+  .flex-display(space-evenly);
+  width: 60%;
+  padding-bottom: 1rem;
+  a {
+    text-decoration: none;
+    color: @shark;
+    transition: ease-in-out 300ms;
+    font-size: 1.3em;
+    &:hover {
+      color: @eastern-blue;
+    }
+  }
+  @media @mobile {
+    width: 100%;
+  }
+}

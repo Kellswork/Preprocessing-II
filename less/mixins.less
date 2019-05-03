@@ -1,1 +1,15 @@
 // Mixins in here
+.flex-display(@justify:flex-start, @align:flex-start, @direction:row) {
+  display: flex;
+  justify-content: @justify;
+  align-items: @align;
+  flex-direction: @direction;
+}
+
+.destination-button(@radius, @color) {
+height: 40px;
+width: 80%;
+border: 1px solid @button-bg;
+border-radius: @radius;
+background: @color;
+}
